@@ -29,7 +29,7 @@ const About = () => {
       <Banner homePage={false} />
       <ul className="list-wrapper-about">
         {collapse.map((item, index) => (
-          <Collapse key=<p>{index}</p> title={item.title} text={item.text} />
+          <Collapse key={index} title={item.title} text={item.text} />
         ))}
       </ul>
       <Footer />
