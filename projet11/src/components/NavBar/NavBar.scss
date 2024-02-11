@@ -35,14 +35,14 @@
                 }
             }
         }
-    }
+
 
     nav {
         padding-bottom: 10px;
         padding-top: 10px;
         padding-right: 0;
 
-        ul.nav-bar-words {
+        ul .nav-bar-words {
             list-style-type: none;
             margin: 0;
             padding: 0;
@@ -73,6 +73,7 @@
             }
         }
     }
+        }
 
     @media screen and (max-width: 1440px) {
         .Navbar>img {
@@ -98,7 +99,8 @@
                 padding: 13px;
             }
 
-            ul.nav-bar-words {
+            ul .nav-bar-words {
+                nav{
                 li {
                     margin-left: inherit;
                     margin-top: 20px;
@@ -109,6 +111,7 @@
                         height: 17px;
                     }
                 }
+            }
             }
         }
     }
