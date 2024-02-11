@@ -19,7 +19,7 @@ function Collapse(props) {
         <p>{props.title}</p>
         <IconChevron />
       </div>
-      <div className="">
+      <div className="list-item-collapsed-text">
         {open && <div className="collapsed-text">{props.text}</div>}
       </div>
     </>

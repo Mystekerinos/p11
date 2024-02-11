@@ -22,14 +22,14 @@ const About = () => {
       text: "La sécurité est la priorité de Kasa. Aussi bien pour nos hôtes que pour les voyageurs, chaque logement correspond aux critères de sécurité établis par nos services. En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes.",
     },
   ];
-  console.log("collapse", collapse);
+
   return (
     <div id="about">
       <Header />
       <Banner homePage={false} />
       <ul className="list-wrapper-about">
         {collapse.map((item, index) => (
-          <Collapse key={index} title={item.title} text={item.text} />
+          <Collapse key=<p>{index}</p> title={item.title} text={item.text} />
         ))}
       </ul>
       <Footer />
