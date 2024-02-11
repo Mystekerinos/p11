@@ -1,0 +1,48 @@
+
+
+.rating {
+    display: flex;
+    align-items: center;
+
+    &__icon {
+        margin-right: 5px;
+
+        @media screen and (max-width: 768px) {
+            height: 24px;
+        }
+
+        @media screen and (max-width: 992px) {
+            height: 30px;
+        }
+    }
+}
+
+.rate {
+    float: right;
+    margin-top: 25px;
+
+    @media screen and (max-width: 650px) {
+        float: left;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    span svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    span svg {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    span svg {
+        width: 15px;
+        height: 15px;
+    }
+}

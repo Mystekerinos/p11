@@ -1,0 +1,107 @@
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyrights {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.housing-list {
+    display: flex;
+    height: auto;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 43px !important;
+    background-color: rgba(226, 226, 224, 0.541);
+    margin: 16px auto;
+    border-radius: 10px;
+    padding: 24px 0;
+}
+
+.housing-box {
+    width: 380px;
+    height: 350px;
+    /* overflow: hidden; */
+    position: relative;
+    margin: 16px 16px;
+    border-radius: 10px;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .title {
+        position: absolute;
+        bottom: 20px;
+        left: 16px;
+        padding-right: 16px;
+        color: white;
+        font-weight: 500;
+        font-size: 18px;
+    }
+}
+
+.opacity-div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(180deg,
+            rgba(248, 255, 253, 0) 0%,
+            rgba(31, 36, 35, 0.7486344879748774) 46%);
+    height: 72px;
+    width: 100%;
+}
+
+@media screen and (max-width: 937px) {
+    .housing-list {
+        .housing-box {
+            width: 335px;
+            height: 255px;
+            overflow: hidden;
+            position: relative;
+            margin: 16px 0;
+            border-radius: 10px;
+            cursor: pointer;
+
+            .title {
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .housing-list {
+        background-color: white;
+        padding: 0 0px;
+        margin-top: 4px !important;
+    }
+
+    .housing-box {
+        width: 335px;
+        height: 255px;
+        overflow: hidden;
+        position: relative;
+        margin: 16px 0;
+        border-radius: 10px;
+        cursor: pointer;
+
+        .title {
+            font-size: 18px;
+        }
+    }
+}
