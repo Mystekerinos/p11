@@ -6,11 +6,11 @@ const Slide = ({ totalNumberOfPhotos }) => {
   const [index, setIndex] = useState(0);
 
   const previousSlide = () => {
-    const nextIndex = index - 1;
-    if (nextIndex < 0) {
+    const previousIndex = index - 1;
+    if (previousIndex < 0) {
       setIndex(totalNumberOfPhotos.length - 1);
     } else {
-      setIndex(nextIndex);
+      setIndex(previousIndex);
     }
   };
 
@@ -19,7 +19,6 @@ const Slide = ({ totalNumberOfPhotos }) => {
   };
 
   const photos = totalNumberOfPhotos;
-  console.log("photos", photos);
 
   return (
     <div className="photo-box">

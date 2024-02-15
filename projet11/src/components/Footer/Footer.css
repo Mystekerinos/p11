@@ -1,0 +1,32 @@
+.Footer {
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  width: 100%;
+  position: relative;
+  height: 209px;
+  background-color: rgb(0, 0, 0);
+}
+.Footer footer {
+  margin-top: 40px;
+}
+.Footer footer img {
+  margin-top: 40px;
+}
+.Footer footer p {
+  color: #FFFFFF;
+  margin-top: 40px;
+}
+@media screen and (max-width: 650px) {
+  .Footer footer img {
+    margin-top: 25px;
+  }
+  .Footer footer p {
+    width: 123px;
+    font-size: 12px !important;
+    margin-top: 15px !important;
+    margin-right: 10%;
+    margin-left: 33%;
+  }
+}/*# sourceMappingURL=Footer.css.map */

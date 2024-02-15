@@ -1,0 +1,21 @@
+.tag {
+  background: #ff6060;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+@media screen and (max-width: 992px), screen and (max-width: 650px) {
+  .tag {
+    border-radius: 10px;
+  }
+}
+.tag__text {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+}
+@media screen and (max-width: 650px) {
+  .tag__text {
+    font-size: 10px !important;
+  }
+}/*# sourceMappingURL=Tags.css.map */

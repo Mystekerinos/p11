@@ -1,0 +1,92 @@
+.photo-box {
+  width: 100%;
+  height: 415px;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+}
+.photo-box .photo-box {
+  position: relative;
+}
+.photo-box .counter {
+  position: absolute;
+  top: 371px;
+  padding-left: 50%;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+@media screen and (max-width: 650px) {
+  .photo-box .counter {
+    top: 75%;
+    padding-left: 46%;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 1480px) {
+  .photo-box {
+    overflow: hidden;
+    border-radius: 25px;
+    position: relative;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 650px) {
+  .photo-box {
+    height: 255px;
+    border-radius: 10px;
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: -20px;
+  }
+  .photo-box .counter {
+    position: absolute;
+    top: 75%;
+    padding-left: 46%;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+
+.photo-box img {
+  width: 100%;
+  height: 415px;
+  -o-object-fit: cover !important;
+     object-fit: cover !important;
+  border-radius: 10px;
+}
+@media screen and (max-width: 650px) {
+  .photo-box img {
+    width: 100%;
+    height: 225px;
+    -o-object-fit: cover !important;
+       object-fit: cover !important;
+  }
+}
+
+.left-icon,
+.right-icon {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  cursor: pointer;
+}
+@media screen and (max-width: 650px) {
+  .left-icon,
+  .right-icon {
+    top: 40%;
+  }
+}
+
+.left-icon {
+  left: -7px;
+  rotate: 90deg;
+}
+
+.right-icon {
+  right: -7px;
+  rotate: -90deg;
+}/*# sourceMappingURL=Slide.css.map */

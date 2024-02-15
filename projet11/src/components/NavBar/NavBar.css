@@ -1,0 +1,78 @@
+nav {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-right: 0;
+  padding-left: 10px;
+}
+
+ul.nav-bar-words {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-bar-words {
+  display: flex;
+}
+
+li {
+  list-style: none;
+  margin-left: 20px;
+  color: #FF6060;
+  cursor: pointer;
+  font-size: 18px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+a {
+  display: block;
+  height: 34px;
+  width: 104px;
+  color: #FF6060;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #FF6060;
+}
+
+@media only screen and (max-width: 320px) {
+  li {
+    margin-left: 10px;
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  a {
+    width: 86px;
+    height: 17px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  li {
+    margin-left: 30px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  a {
+    width: 86px;
+    height: 17px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: inherit;
+    display: flex;
+    justify-content: center;
+  }
+  li {
+    margin-top: 20px;
+    font-size: 16px;
+    margin-left: 0px;
+  }
+  nav {
+    padding-left: 0px;
+  }
+}/*# sourceMappingURL=NavBar.css.map */

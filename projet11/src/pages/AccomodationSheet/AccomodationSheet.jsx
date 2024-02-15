@@ -12,7 +12,7 @@ import "./AccomodationSheet.scss";
 const AccomodationSheet = () => {
   const { id } = useParams();
   const selectedHousing = housing.find((item) => item.id === id);
-  console.log("selectedHousing", selectedHousing);
+
   if (!selectedHousing) {
     return <PageNotFound />;
   }

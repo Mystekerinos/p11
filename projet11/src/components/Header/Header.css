@@ -1,0 +1,35 @@
+.Header {
+  margin: 20px 0;
+  width: 90%;
+  left: 5%;
+  position: relative;
+}
+.Header header {
+  display: flex;
+  justify-content: space-between;
+}
+.Header .logo {
+  width: auto;
+  height: 80px;
+}
+@media only screen and (max-width: 320px) {
+  .Header .logo {
+    height: 50px;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .Header .logo {
+    height: 46px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .Header {
+    width: 100%;
+    left: 0;
+  }
+}
+@media only screen and (min-width: 321px) and (max-width: 768px) {
+  .Header {
+    width: 90%;
+  }
+}/*# sourceMappingURL=Header.css.map */
