@@ -59,7 +59,7 @@ const AccomodationSheet = () => {
             <Collapse
               title="équipement"
               text={selectedHousing.equipments.map((key) => {
-                return <p>{key}</p>;
+                return <p key={key}>{key}</p>;
               })}
             />
           </div>
