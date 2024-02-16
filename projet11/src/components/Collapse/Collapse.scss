@@ -14,7 +14,7 @@
     p {
         
         color: white;
-        font-size: 24px;
+        font-size: 18px;
         text-transform: capitalize;
     }
 
@@ -24,7 +24,7 @@
     }
 
     &.reverse svg {
-        transform: rotate(0deg);
+        transform: rotate(180deg);
     }
 
     .icon-wrapper {
@@ -34,21 +34,25 @@
         
 
         &.reverse {
-            transform: rotate(360deg);
+            transform: rotate(180deg);
         }
+    
     }
-
+    .collapse-icon-chevron{
+    transform:rotate(180deg);
+    }
   
 
     @media screen and (max-width: 992px) {
         width: 80%;
+        
     }
 
     @media screen and (max-width: 768px) {
 
        
         p {
-            font-size: 15px !important;
+            font-size: 13px !important;
         }
 
         .collapsed-text {
@@ -71,7 +75,10 @@
     }
 
     &.reverse svg {
+        @media screen and (max-width: 650px) {
+               
         transform: rotate(180deg);
+        }
     }
 
     @media screen and (max-width: 650px) {

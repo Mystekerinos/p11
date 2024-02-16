@@ -17,7 +17,9 @@ function Collapse(props) {
         onClick={toggle}
       >
         <p>{props.title}</p>
-        <IconChevron />
+        <div className="collapse-icon-chevron">
+          <IconChevron />
+        </div>
       </div>
       <div className="list-item-collapsed-text">
         {open && <div className="collapsed-text">{props.text}</div>}
