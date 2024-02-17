@@ -29,16 +29,14 @@
 
     @media screen and (max-width: 650px) {
         footer {
-            img {
-                margin-left:7.7em;
-            }
+           
 
             p {
                 width: 123px;
                 font-size: 12px !important;
                 margin-top: 6px !important;
-                margin-right: 10%;
-                margin-left: 10.2em;
+                margin-right: auto;
+                margin-left: auto;
             }
         }
     }
