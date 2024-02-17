@@ -23,7 +23,7 @@
     align-items: flex-end;
     margin-top: 17px;
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 761px) {
         flex-direction: row-reverse;
         justify-content: space-between;
         margin-top: inherit;
@@ -34,7 +34,7 @@
     display: flex;
     margin-bottom:15px;
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 761px) {
         float: right;
         margin-bottom: inherit;
     }
@@ -63,7 +63,7 @@
             }
         }
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 761px) {
         width: 100%;
     }
 }
@@ -151,7 +151,7 @@
 .accomodationSheet {
     margin: 0 5%;
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 761px) {
         margin: 0 5%;
         display: flex;
         flex-direction: column;
@@ -193,7 +193,7 @@
     }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 761px) {
 
     .left-icon svg,
     .right-icon svg {
