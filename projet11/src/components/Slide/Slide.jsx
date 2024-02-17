@@ -22,9 +22,12 @@ const Slide = ({ totalNumberOfPhotos }) => {
 
   return (
     <div className="photo-box">
-      <div className="counter">{`${index + 1} / ${
-        totalNumberOfPhotos.length
-      }`}</div>
+      {" "}
+      {totalNumberOfPhotos.length > 1 && (
+        <div className="counter">{`${index + 1} / ${
+          totalNumberOfPhotos.length
+        }`}</div>
+      )}
       {totalNumberOfPhotos.length > 1 && (
         <div
           className="left-icon"
