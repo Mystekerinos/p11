@@ -150,9 +150,9 @@
 
 .accomodationSheet {
     margin: 0 5%;
-
+    padding-bottom: 23px;
     @media screen and (max-width: 761px) {
-        margin: 0 5%;
+        padding-bottom:23px;
         display: flex;
         flex-direction: column;
         .tags-list-wrapper {

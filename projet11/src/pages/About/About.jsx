@@ -1,5 +1,4 @@
-import Header from "../../components/Header/Header";
-import Footer from "../../components/Footer/Footer";
+import PageWrapper from "../../components/PageWrapper/PageWrapper";
 import Banner from "../../components/Banner/Banner";
 import Collapse from "../../components/Collapse/Collapse";
 import "./About.scss";
@@ -24,16 +23,16 @@ const About = () => {
   ];
 
   return (
-    <div id="about">
-      <Header />
-      <Banner homePage={false} />
-      <ul className="list-wrapper-about">
-        {collapse.map((item, index) => (
-          <Collapse key={index} title={item.title} text={item.text} />
-        ))}
-      </ul>
-      <Footer />
-    </div>
+    <PageWrapper>
+      <>
+        <Banner homePage={false} />
+        <ul className="list-wrapper-about">
+          {collapse.map((item, index) => (
+            <Collapse key={index} title={item.title} text={item.text} />
+          ))}
+        </ul>
+      </>
+    </PageWrapper>
   );
 };
 export default About;
