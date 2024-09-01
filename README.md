@@ -5,9 +5,7 @@
 
 Formation Développeur d'application - JavaScript React
 
-# p11
-
-**KAZA**
+# p11: KAZA
 
 
 <img width="914" alt="Capture d’écran 2024-09-01 à 21 48 36" src="https://github.com/user-attachments/assets/6c790f48-7923-417c-ac26-4b98de362d71">
@@ -39,5 +37,7 @@ Cahier des charges:
 **Technos:**
 
 Utilisation de Figma pour la maquette.
+
 Utilisation de React pour le développement et de Saas pour le style.
+
 Utilisation de GitHub pour le versionning et Vercel pour le déploiement.
