@@ -24,7 +24,7 @@ Formation Développeur d'application - JavaScript React
 
 Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router
 
-Cahier des charges:
+**Cahier des charges:**
 
 ● Create React App
 
