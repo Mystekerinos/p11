@@ -7,7 +7,7 @@ Formation Développeur d'application - JavaScript React
 
 # p11
 
-KAZA
+**KAZA**
 
 
 <img width="914" alt="Capture d’écran 2024-09-01 à 21 48 36" src="https://github.com/user-attachments/assets/6c790f48-7923-417c-ac26-4b98de362d71">
@@ -22,7 +22,7 @@ KAZA
 
 
 
-Objectif:
+**Objectif:**
 
 Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router
 
@@ -30,7 +30,7 @@ Cahier des charges:
 
 ● Create React App ● React Router ● Styling: L’utilisation de Sass est optionnelle. CSS est à utiliser par défaut. ● Pas de librairie React externe
 
-Technos
+**Technos:**
 
 Utilisation de Figma pour la maquette.
 Utilisation de React pour le développement et de Saas pour le style.
