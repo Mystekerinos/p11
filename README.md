@@ -18,8 +18,16 @@
 <img width="876" alt="Capture d’écran 2024-09-01 à 21 50 43" src="https://github.com/user-attachments/assets/e4077671-7a4c-44f6-87b4-e4e9508f3c99">
 
 
-Objectif
+Objectif:
+
 Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router
 
-Cahier des charges
+Cahier des charges:
+
 ● Create React App ● React Router ● Styling: L’utilisation de Sass est optionnelle. CSS est à utiliser par défaut. ● Pas de librairie React externe
+
+Technos
+
+Utilisation de Figma pour la maquette.
+Utilisation de React pour le développement et de Saas pour le style.
+Utilisation de GitHub pour le versionning et Vercel pour le déploiement.
